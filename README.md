@@ -67,4 +67,4 @@ python main.py
 5. Back to Main Menu
 ```
 
-![Classes Diagram](diagrams\classes.svg)
+![Classes Diagram](diagrams/classes.svg)
