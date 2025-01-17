@@ -66,3 +66,5 @@ python main.py
 4. View Notifications
 5. Back to Main Menu
 ```
+
+![Classes Diagram](diagrams\classes.svg)
