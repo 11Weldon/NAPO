@@ -67,4 +67,27 @@ python main.py
 5. Back to Main Menu
 ```
 
+Диаграммы
+
+1. Диаграмма классов (Classes Diagram)
+
 ![Classes Diagram](diagrams/classes.svg)
+
+
+
+2. Диаграмма последовательностей (Sequence Diagram)
+
+![Sequence Diagram](diagrams/sequence.svg)
+
+
+
+3. Диаграмма компонентов (Components Diagram)
+
+Добавьте вашу диаграмму компонентов в папку diagrams и укажите путь к файлу.
+
+![Components Diagram](diagrams/components.svg)
+
+
+4. Диаграмма вариантов использования (Use Cases Diagram)
+
+![Use Cases Diagram](diagrams/use_cases.svg)
