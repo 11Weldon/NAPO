@@ -3,16 +3,19 @@
 ```
 pip install -r requirements.txt
 ```
+
 2. Запуск программы:
 
 ```
 python main.py
 ```
+
 3. Действия в консоли после запуска:
 
-    Главное меню:
+   Главное меню:
 
-    В консоли появится следующее меню:
+   В консоли появится следующее меню:
+
 ```--- Main Menu ---
 1. Login
 2. Exit
@@ -22,6 +25,7 @@ python main.py
 
 Администратор (Admin):
 После ввода 1 и user_id 1 появится меню администратора:
+
 ```
  --- Admin Menu ---
 1. Manage Users
@@ -36,6 +40,7 @@ python main.py
 Введите соответствующую цифру (от 1 до 7) и нажмите Enter для выбора пункта меню.
 В зависимости от выбора, будет запрошен ввод дополнительных данных.
 Например, если выберите 1 (Manage Users) то появится меню:
+
 ```
 --- Manage Users Menu ---
 1. Create User
@@ -46,6 +51,7 @@ python main.py
 5. Преподаватель (Teacher):
 
 После ввода 1 и user_id преподавателя появится меню преподавателя:
+
 ```
     --- Teacher Menu ---
    1. Add Grade
@@ -53,11 +59,12 @@ python main.py
    3. View Report
    4. View Schedule
    5. Back to Main Menu
-   ```
+```
 
 6. Студент (Student):
 
 После ввода 1 и user_id студента появится меню студента:
+
 ```
 --- Student Menu ---
 1. View Grades
@@ -66,3 +73,29 @@ python main.py
 4. View Notifications
 5. Back to Main Menu
 ```
+
+Диаграммы
+
+1. Диаграмма классов (Classes Diagram)
+
+![Classes Diagram](diagrams/classes.svg)
+
+2. Диаграмма последовательностей (Sequence Diagram)
+
+![Sequence Diagram](diagrams/sequence.svg)
+
+3. Диаграмма компонентов (Components Diagram)
+
+![Components Diagram](diagrams/components.svg)
+
+4. Диаграмма вариантов использования (Use Cases Diagram)
+
+![Use Cases Diagram](diagrams/use_cases.svg)
+
+5. Диаграмма состояний для студента
+
+![Student state Diagram](diagrams/students_actions_state.svg)
+
+6. Диаграмма состояний процесса добавления оценки студенту
+
+![Add mark state Diagram](diagrams/add_mark_state.svg)
